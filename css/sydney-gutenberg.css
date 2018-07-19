@@ -1,0 +1,97 @@
+@media only screen and (min-width: 992px) {
+  .has-sidebar .content-area .hentry {
+    width: calc(100% - 80px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .page-wrap > .container {
+    width: 100%;
+  }
+  .page-wrap > .container .entry-header,
+  .page-wrap > .container .entry-footer,
+  .page-wrap > .container .hentry .entry-content > *,
+  .page-wrap > .container .post-navigation > *,
+  .page-wrap > .container .comments-area > * {
+    max-width: 75%;
+  }
+  .page-wrap > .container .hentry .entry-content .alignfull {
+    width: 100%;
+    max-width: 100%;
+  }
+  .page-wrap > .container .hentry .entry-content .alignfull img {
+    width: 100%;
+    height: auto;
+  }
+  .page-wrap > .container .entry-header,
+  .page-wrap > .container .entry-content,
+  .page-wrap > .container .entry-footer,
+  .page-wrap > .container .hentry .entry-content > *,
+  .page-wrap > .container .post-navigation > *,
+  .page-wrap > .container .comments-area > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #secondary.widget-area {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .page-wrap > .container .entry-header,
+  .page-wrap > .container .entry-footer,
+  .page-wrap > .container .hentry .entry-content > *,
+  .page-wrap > .container .post-navigation > *,
+  .page-wrap > .container .comments-area > * {
+    max-width: 720px;
+  }
+  .page-wrap > .container .hentry .entry-content .alignfull {
+    max-width: calc(100% + 60px);
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  #secondary.widget-area {
+    max-width: 720px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-wrap > .container .hentry .entry-content .alignfull {
+    max-width: calc(100% + 60px);
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
+.wp-block-heading {
+  font-family: "Raleway", sans-serif;
+}
+.wp-block-heading h1 {
+  font-size: 52px;
+}
+.wp-block-heading h2 {
+  font-size: 42px;
+}
+.wp-block-heading h3 {
+  font-size: 32px;
+}
+.wp-block-heading h4 {
+  font-size: 25px;
+}
+.wp-block-heading h5 {
+  font-size: 20px;
+}
+.wp-block-heading h6 {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 992px) {
+  .has-sidebar .wp-block-image.alignfull {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+  }
+}
+
+/*# sourceMappingURL=sydney-gutenberg.css.map */

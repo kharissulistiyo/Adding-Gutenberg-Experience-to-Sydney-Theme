@@ -1,0 +1,54 @@
+@media only screen and (min-width: 992px) {
+
+  .has-sidebar {
+    .content-area .hentry {
+      width: calc(100% - 80px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  @import "content-width";
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+
+  .page-wrap > .container {
+
+    .entry-header,
+    .entry-footer,
+    .hentry .entry-content > *,
+    .post-navigation > *,
+    .comments-area > * {
+      max-width: 720px;
+    }
+
+    .hentry .entry-content .alignfull {
+      max-width: calc(100% + 60px);
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+
+  }
+
+  #secondary.widget-area {
+    max-width: 720px;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .page-wrap > .container {
+    .hentry .entry-content .alignfull {
+      max-width: calc(100% + 60px);
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+  }
+
+}

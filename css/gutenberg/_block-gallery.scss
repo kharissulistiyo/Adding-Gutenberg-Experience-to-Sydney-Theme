@@ -1,0 +1,23 @@
+.wp-block-{
+
+  &gallery {
+
+
+    .blocks-gallery-item {
+
+    }
+
+    figure {}
+    figure img {}
+
+    // Alignment
+    &.alignnone {
+    }
+    &.alignfull {
+    }
+    &.alignwide {
+    }
+
+  }
+
+}

@@ -1,0 +1,41 @@
+.page-wrap > .container {
+  width: 100%; // 750px; by default
+
+  .entry-header,
+  .entry-footer,
+  .hentry .entry-content > *,
+  .post-navigation > *,
+  .comments-area > * {
+    max-width: 75%;
+  }
+
+  .hentry .entry-content .alignfull {
+    width: 100%;
+    max-width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      // margin-left: -15px;
+      // margin-right: -15px;
+    }
+
+  }
+
+  .entry-header,
+  .entry-content,
+  .entry-footer,
+  .hentry .entry-content > *,
+  .post-navigation > *,
+  .comments-area > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+#secondary.widget-area {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}

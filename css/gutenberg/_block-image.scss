@@ -1,0 +1,27 @@
+.wp-block-{
+
+  &image {
+
+
+    // Alignment
+    &.alignnone {
+    }
+    &.alignfull {
+      
+      .has-sidebar & {
+        @media only screen and (min-width: 992px) {
+          width: calc(100% + 80px);
+          margin-left: -40px;
+        }
+      }
+    }
+    &.alignwide{
+    }
+
+  }
+
+  figcaption {
+
+  }
+
+}
